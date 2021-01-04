@@ -3,7 +3,7 @@
 
 canal client adapter for phoenix.
 
-## Note:
+## Note
 
   Thanks for the author wenjunxiao,which github address is "https://github.com/wenjunxiao/canal-phoenix-adapter". I fix the bug of connection for phoenix.And I Offer two versions.We can prefer using the version with not using druid pool,because phoenix provides the connection pool itself. 
   If infringement is involved, please contact me,which QQ is 614371384@qq.com.
