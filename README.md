@@ -34,6 +34,13 @@ firstly, and then insert/update the value.
 * `limit` Whether it is consistent with the mysql field definition. If false, it will add
 column with precision and scale.
 
+### multi thread sink
+   The sink thread is 3 by default.You can increase the thread as fllows:
+   (1)add a text named phoenix_common.properties,moving it to  $ADAPTER_HOME/conf/phoenix.
+       cd $ADAPTER_HOME/conf/phoenix
+       touch phoenix_common.properties   
+   (2)echo "threads = 6" > $ADAPTER_HOME/conf/phoenix/phoenix_common.properties
+ 
 ## Compile
 
 Download the special version of `canal.adapter` from [https://github.com/alibaba/canal/releases](https://github.com/alibaba/canal/releases).
